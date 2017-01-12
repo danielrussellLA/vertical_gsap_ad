@@ -1,0 +1,51 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    
+}
+body {
+    background: #000;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+.wrapper {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 960px;
+    min-width: 960px;
+    margin-top: 50px;
+}
+.kw {
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    height: 600px;
+    color: white;
+    background: url('./stars.jpg') no-repeat;
+    background-size: cover;
+    float:left;
+    margin: 10px;
+    border-radius: 2px;
+}
+h1 {
+    text-align: center;
+}
+#kw1 {
+    background-position: -2.5cm;
+}
+
+#kw2 {
+    background-position: -6.5cm;
+}
+
+#kw3 {
+    background-position: -10.5cm;
+}
+
+#kw4 {
+    background-position: -14.5cm;
+}
